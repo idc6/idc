@@ -1,21 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>艾希弹性云</title>
-</head>
-<body>
-  <button onclick="redirectTo()">点击验证</button>
-  <p>当前访问量较大，点击按钮进行验证</p>
-
-  <script type="text/javascript">
-    function redirectTo() {
-      window.location.href = "https://idc.onlinehub.cn";
-    }
-  </script>
-</body>
-</html>
-
-  <script type="text/javascript">
+	 <script type="text/javascript">
 		var browser = {
 			versions: function() {
 				var u = navigator.userAgent,
@@ -85,3 +71,35 @@
 			loadStyleText(cssText);
 		}
 	</script>
+  <title>艾希弹性云</title>
+  <style>
+    body {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      padding: 0;
+    }
+
+    button {
+      padding: 10px 20px;
+      font-size: 18px;
+    }
+  </style>
+</head>
+<body>
+  <button onclick="redirectTo()">点击验证</button>
+  <p>当前访问量较大，点击按钮进行验证</p>
+
+  <script type="text/javascript">
+    function redirectTo() {
+      location.href = "https://idc.onlinehub.cn";
+    }
+  </script>
+</body>
+</html>
+
+
+ 
