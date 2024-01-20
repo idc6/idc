@@ -2,6 +2,51 @@
 <html>
 	<head>
 		<title>艾希弹性云</title>
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<style>
+			body {
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+				height: 100vh;
+				margin: 0;
+				padding: 0;
+				background-color: #f2f2f2;
+			}
+
+			button {
+				padding: 10px 20px;
+				font-size: 16px;
+				background-color: #4caf50;
+				color: white;
+				border: none;
+				cursor: pointer;
+				border-radius: 10px;
+				margin-bottom: 20px;
+			}
+
+			p {
+				font-size: 14px;
+				margin-top: 10px;
+				text-align: center;
+			}
+
+			/* 移动端样式 */
+			@media screen and (max-width: 480px) {
+				button {
+					padding: 15px 26px;
+					font-size: 20px;
+					border-radius: 10px;
+					margin-bottom: 20px;
+				}
+
+				p {
+					font-size: 18px;
+				}
+			}
+		</style>
 		<script type="text/javascript">
 	var browser = {
 		versions: function() {
@@ -72,50 +117,6 @@
 		loadStyleText(cssText);
 	}
 </script>
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<style>
-			body {
-				display: flex;
-				flex-direction: column;
-				justify-content: center;
-				align-items: center;
-				height: 100vh;
-				margin: 0;
-				padding: 0;
-				background-color: #f2f2f2;
-			}
-
-			button {
-				padding: 10px 20px;
-				font-size: 16px;
-				background-color: #4caf50;
-				color: white;
-				border: none;
-				cursor: pointer;
-				border-radius: 10px;
-				margin-bottom: 20px;
-			}
-
-			p {
-				font-size: 14px;
-				margin-top: 10px;
-				text-align: center;
-			}
-
-			/* 移动端样式 */
-			@media screen and (max-width: 480px) {
-				button {
-					padding: 15px 26px;
-					font-size: 20px;
-					border-radius: 10px;
-					margin-bottom: 20px;
-				}
-
-				p {
-					font-size: 18px;
-				}
-			}
-		</style>
 	</head>
 	<body>
 		<button onclick="redirectTo()">点击验证</button>
